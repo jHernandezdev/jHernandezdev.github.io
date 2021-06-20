@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  humhub-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-06-20T12:28:41.944065+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 282108aafad134733389be44e9a21660ce8769411594cdd94cc0ff3f77ed727f
+    name: humhub-chart
+    type: application
+    urls:
+    - humhub-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-06-20T12:28:41.943293+02:00"
