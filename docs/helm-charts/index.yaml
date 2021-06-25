@@ -1,14 +1,39 @@
 apiVersion: v1
 entries:
-  humhub-chart:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2021-06-20T16:27:03.375835+02:00"
-    description: A Helm chart for Kubernetes
-    digest: 6717eed96c13cf14b46eab78efb7dd20342244580d5f49111f03debc1145e307
-    name: humhub-chart
-    type: application
+  humhub:
+  - annotations:
+      category: SocialNetwork
+    apiVersion: v2
+    appVersion: 1.8.2
+    created: "2021-06-25T13:56:18.3941016+02:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Free social network software and framework built to give you the
+      tools to make communication and collaboration easy and successful
+    digest: b9cf5efecc805089595183b26013a9f3537a907daec0c097320c0bc283330151
+    keywords:
+    - humhub
+    - socialnetwork
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - email: jose.herher@gmail.com
+      name: Jose
+    name: humhub
+    sources:
+    - https://github.com/jHernandezdev/docker-humhub
+    - https://www.humhub.com/
     urls:
-    - humhub-chart-0.1.0.tgz
-    version: 0.1.0
-generated: "2021-06-20T16:27:03.373858+02:00"
+    - humhub-1.0.0.tgz
+    version: 1.0.0
+generated: "2021-06-25T13:56:18.353704+02:00"
