@@ -5,7 +5,7 @@ entries:
       category: SocialNetwork
     apiVersion: v2
     appVersion: 1.8.2
-    created: "2021-06-26T00:31:28.144947+02:00"
+    created: "2021-06-26T03:29:30.023628+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -18,7 +18,7 @@ entries:
       version: 1.x.x
     description: Free social network software and framework built to give you the
       tools to make communication and collaboration easy and successful
-    digest: 896519f5517ac9f81acb72c9d9fe15c6714a7148623cba9f87262044b3f4671b
+    digest: d23f4a101d8597676b1b746df393d6067a68a12b3b80092678be5f852d9cdb89
     keywords:
     - humhub
     - socialnetwork
@@ -36,4 +36,4 @@ entries:
     urls:
     - humhub-1.1.0.tgz
     version: 1.1.0
-generated: "2021-06-26T00:31:28.139642+02:00"
+generated: "2021-06-26T03:29:30.017769+02:00"
